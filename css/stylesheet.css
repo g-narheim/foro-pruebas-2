@@ -3328,3 +3328,72 @@ body.tema-faro {
     color: #FFF;
     text-decoration: none
 }
+
+/*** CARROUSEL ***/
+
+/*** BUSQUEDAS CAROUSEL ***/
+.t-busquedas-env {
+    height: 210px;
+    width: 210px;
+    overflow: hidden;
+    position: relative;
+}
+
+.t-busquedas-inner {
+  display: flex;
+  flex-direction: row;
+  transition: transform 0.2s ease-in-out;
+}
+
+.t-busqueda {
+height: 210px;
+    width: 210px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    gap: 10px;
+    overflow: hidden;
+}
+
+.t-busqueda .tb-img {
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+    border-radius: 100%;
+    background: var(--gradient1);
+    padding: 5px;
+}
+
+.t-busqueda .tb-img img {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    object-fit: cover;
+    object-position: center 30%;
+}
+
+.t-busqueda .tb-title {
+    text-transform: uppercase;
+    max-width: 70%;
+    text-align: center;
+    font-size: 14px;
+    line-height: 130%;font-weight: 700;
+}
+
+.t-busqueda a {
+    background: var(--fondo3);
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 11px;
+    font-weight: 600;
+    height: 45px;
+    border: var(--borde2);
+}
+
